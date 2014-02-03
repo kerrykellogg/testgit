@@ -1,0 +1,112 @@
+body
+{
+    background-color: grey;
+    color: white;
+}
+
+.content
+{
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    margin: 10px;
+    text-align: left;
+}
+
+.navigation ul
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navigation ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+.navigation li:before {
+content: " | ";
+color: green;
+}
+
+.navigation li:first-child:before {
+content: none;
+}
+
+.footer
+{
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
+
+.footer ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+.footer li:before {
+content: " | ";
+color: green;
+}
+
+.footer li:first-child:before {
+content: none;
+}
+
+.experience ul
+{
+    font: italic 30px helvetica;
+}
+
+.wrapper
+{
+    width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #eeeeee;
+}
+.header
+{
+    border-bottom: 1px solid #eeeeee;
+}
+
+.title
+{
+    font-style: italic;
+}
+
+a:link
+{
+color: green;
+}
+
+a:visited
+{
+color: white;
+}
+
+a:hover
+{
+color: blue;
+}
+
+a:active{
+color:red;
+}
+
+.profilepic{
+float: right;
+}
+
+.ResumeLines{
+    color: #eeeeee;
+}
+
+.school{
+    color: white;
+}
